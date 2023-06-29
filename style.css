@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: #ffff;
+
 }
 
 header {
@@ -88,17 +89,15 @@ article {
     color: #07043B;
 }
 
-.session1 p {
-    font-weight: 400px;
-    font-style: normal;
+.session1 p{
+    color: #07043B;
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    letter-spacing: 0.53;
-    width: 585px;
-    height: 72px;
+    letter-spacing: 0.53 px;
     margin-bottom: 25px;
-    color: #07043B;
+    width: 585px;
 }
 
 .illustration1 {
@@ -113,7 +112,8 @@ article {
     position: relative;
     width: 320px;
     height: 45px;
-    border: 0.625px solid #07043B;
+    border: 0.63px solid #07043B;
+    outline: none;
     border-radius: 3.125px;
     padding-left: 21px;
     box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.15925);
@@ -121,7 +121,7 @@ article {
 
 .session1 input::placeholder {
     font-family: "Open Sans";
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19.07px;
     letter-spacing: 0.44px;
@@ -137,7 +137,7 @@ article {
     color: white;
     cursor: pointer;
     font-family: "Raleway", sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 16.44px;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
@@ -145,7 +145,7 @@ article {
 }
 
 .session1 button:hover {
-    background: #07043B;
+    background: #6C9BFF;
     transition: .5s;
 
 }
@@ -157,7 +157,7 @@ article {
 .conteiner {
     display: inline-block;
     background: none;
-
+    padding-left: 80px;
 
 }
 
@@ -172,11 +172,8 @@ article {
     background: none;
 }
 
-.conteiner p {
+.paragraph4 {
     width: 529px;
-    height: 48px;
-    top: 263px;
-    left: 80px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400px;
     font-size: 16px;
@@ -184,7 +181,17 @@ article {
     color: #07043B;
     background: none;
     margin-bottom: 16px;
+}
 
+.paragraph3 {
+    width: 529px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    background: none;
+    margin-bottom: 16px;
 }
 
 .pgreen {
@@ -230,25 +237,22 @@ article {
     height: 409px;
     display: flex;
     align-items: center;
-    margin-top: 202px;
-    width: 640px;
-    height: 474px;
-    background: none;
     mix-blend-mode: multiply;
 }
 
 .featureSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: none;
 }
 
 .featureDiv {
     width: 356px;
-    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15925);
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    margin-top: 40px;
+    padding: 20px 34px;
+    border-radius: 5px;
 }
 
 .descriptiontestiomonial {
@@ -256,18 +260,23 @@ article {
     font-size: 13px;
     line-height: 23px;
     letter-spacing: 0.5px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     display: flex;
     align-items: center;
     width: 289px;
     height: 92px;
+    color: #07043B;
 }
 
 .formWrapper {
     display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
 }
 
 .testiomonialauthor {
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 11px;
     line-height: 14.98px;
@@ -277,11 +286,185 @@ article {
 }
 
 .testimonialFuction {
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 8px;
     line-height: 15px;
     letter-spacing: 0.4px;
     display: flex;
+}
+
+.backgroundsub {
+    background: #575988;
+    height: 369.71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    width: 100%;
+}
+
+.backgroundnu {
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.boxtext {
+    background: none;
+}
+
+.texth2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    background: none;
+    color: white;
+}
+
+.boxtext p { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    width: 533px;
+    padding-top: 17px;
+    background: none;
+    color: white;
+    letter-spacing: 0.5 px;
+}
+
+
+.backgroundnu input {
+    width: 480px;
+    height: 45px;
+    border-radius: 3.125px;
+    padding-left: 21px;
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.15925);
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+}
+
+.backgroundnu button {
+    width: 200px;
+    height: 48px;
+    border-radius: 3.125px;
+    background: #2F65F8;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.44px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    transition: .3s;
+}
+
+.backgroundnu button:hover {
+    background: #6C9BFF;
+}
+
+.backgroundnu span {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+footer {
+    height: 391px;
+    background-color: #07043B;
+    padding: 80px 93px;
+}
+
+article {
+    background: none;
+}
+
+.tiraback {
+    background: none;
+    margin-bottom: 36px;
+}
+
+.tiraback img {
+    background: none;
+}
+
+.icons {
+    padding-top: 15px;
+    background: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.icons img {
+    background: none;
+}
+
+.icons p {
+    padding-left: 16px;
+    background: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.margin {
+    background: none;
+}
+
+article section{
+    background: none;
+}
+
+.texth5 {
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.texth5 img {
+    background: none;
+}
+
+.paragraph6 {
+    background: none;
+    padding-right: 200px;
+    padding-top: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: white;
+}
+
+
+
+.texth6 {
+    background: none;
+}
+
+.imgs {
+    display: flex;
+    gap: 10px;
+    background: none;
+
+}
+
+div img {
+    background: none;
+
 }
 
 
